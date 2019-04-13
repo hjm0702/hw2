@@ -13,8 +13,8 @@ _look for an equivalent (or reach out for help)._
     ```ssh-keygen -f your_key.pub -e -m pem > your_key.pub.pem```
 
 3.  Send the `your_key.pub.pem` file to Ben:
-    - Email Ben at `bjblock@gmail.com`
-    - Slack Ben at `@Ben Block`
+    - Slack Ben at `@Ben Block` (preferred)
+    - Email Ben via [Canvas](https://canvas.uchicago.edu/conversations#filter=type=inbox)
 
 ## STEP 2
 
