@@ -2,14 +2,14 @@
 
 ## STEP 1
 
-_Note: The commands below presume you're using Linux/Mac.  For Windows, please_
+_Note: The commands below presume you're using Linux/Mac.  For Windows, please_  
 _look for an equivalent (or reach out for help)._
 
-1.  Create a new ssh key pair using the following command:
-    ```ssh-keygen -t rsa -b 4096 -m pem -C "your@email.com"```
-    (When prompted, you should probably use a filename and path separate from your main id_rsa key)
+1.  Create a new ssh key pair using the following command:  
+    ```ssh-keygen -t rsa -b 4096 -m pem -C "your@email.com"```  
+    _(When prompted, you should probably use a filename and path separate from your main id_rsa key)_
 
-2.  Add a pem version of your public key using the following command:
+2.  Add a pem version of your public key using the following command:  
     ```ssh-keygen -f your_key.pub -e -m pem > your_key.pub.pem```
 
 3.  Send the `your_key.pub.pem` file to Ben:
